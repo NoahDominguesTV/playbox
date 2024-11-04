@@ -2,46 +2,46 @@
 <!-- Copyright 2014 Richard Hughes <richard@hughsie.com> -->
 <!-- Copyright 2014 Jonathan Matthew <jonathan@d14n.org> -->
 <component type="desktop-application">
-  <id>org.gnome.Rhythmbox3.desktop</id>
+  <id>org.gnome.Playbox3.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+ and GFDL-1.3</project_license>
-  <name>Rhythmbox</name>
+  <name>Playbox</name>
   <summary>Play and organize all your music</summary>
   <!-- developer_name tag deprecated with Appstream 1.0 -->
-  <developer_name>The Rhythmbox developers</developer_name>
+  <developer_name>The Playbox developers</developer_name>
   <developer id="org.gnome">
-    <name>The Rhythmbox developers</name>
+    <name>The Playbox developers</name>
   </developer>
   <description>
     <p>
-      Rhythmbox is a music management application, designed to work well under the GNOME
+      Playbox is a music management application, designed to work well under the GNOME
       desktop. In addition to music stored on your computer, it supports network shares,
       podcasts, radio streams, portable music devices (including phones), and internet music
       services such as Last.fm and Magnatune.
     </p>
     <p>
-      Rhythmbox is Free software, based on GTK+ and GStreamer, and is extensible via plugins
+      Playbox is Free software, based on GTK+ and GStreamer, and is extensible via plugins
       written in Python or C.
     </p>
   </description>
-  <url type="homepage">https://gnome.pages.gitlab.gnome.org/rhythmbox/</url>
-  <url type="bugtracker">https://gitlab.gnome.org/GNOME/rhythmbox/issues</url>
+  <url type="homepage">https://gnome.pages.gitlab.gnome.org/playbox/</url>
+  <url type="bugtracker">https://gitlab.gnome.org/GNOME/playbox/issues</url>
   <url type="donation">https://www.gnome.org/donate/</url>
-  <url type="help">https://help.gnome.org/users/rhythmbox/stable/</url>
-  <url type="vcs-browser">https://gitlab.gnome.org/GNOME/rhythmbox</url>
-  <url type="translate">https://l10n.gnome.org/module/rhythmbox/</url>
+  <url type="help">https://help.gnome.org/users/playbox/stable/</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/GNOME/playbox</url>
+  <url type="translate">https://l10n.gnome.org/module/playbox/</url>
   <screenshots>
     <screenshot type="default">
-      <image>https://gitlab.gnome.org/GNOME/rhythmbox/-/raw/master/data/screenshots/rhythmbox-main-window.png?inline=false</image>
+      <image>https://gitlab.gnome.org/GNOME/playbox/-/raw/master/data/screenshots/playbox-main-window.png?inline=false</image>
       <caption>Main Window</caption>
     </screenshot>
   </screenshots>
   <update_contact>jmatthew@gnome.org</update_contact>
   <project_group>GNOME</project_group>
-  <launchable type="desktop-id">org.gnome.Rhythmbox3.desktop</launchable>
-  <translation type="gettext">rhythmbox</translation>
+  <launchable type="desktop-id">org.gnome.Playbox3.desktop</launchable>
+  <translation type="gettext">playbox</translation>
   <provides>
-    <id>rhythmbox.desktop</id>
+    <id>playbox.desktop</id>
   </provides>
   <releases>
     <release version="3.4.7" date="2023-04-16">
