@@ -1,18 +1,18 @@
-# Rhythmbox
+# Playbox
 
-Rhythmbox is your one-stop multimedia application, supporting
+Playbox is your one-stop multimedia application, supporting
 a music library, multiple playlists, internet radio, and more.
 
-Rhythmbox is free software, licensed under the GNU GPL.
+Playbox is free software, licensed under the GNU GPL.
 
 Our IRC channel is `#gnome-rhythmbox` on [Libera Chat](irc.libera.chat).
 
-You can also post questions about Rhythmbox under the Applications
+You can also post questions about Playbox under the Applications
 category on [GNOME Discourse](https://discourse.gnome.org/).
 
 ## Installation
 
-Rhythmbox requires the following packages:
+Playbox requires the following packages:
 
 - A working GNOME platform including glib 2.66, gtk+ 3.16, and libsoup 3
 - meson 0.59 or newer
@@ -24,7 +24,7 @@ Rhythmbox requires the following packages:
 - tdb 1.2.6 or newer
 - gettext 0.20 or newer
 
-Rhythmbox can also make use of the following packages:
+Playbox can also make use of the following packages:
 
 - pygobject 3.0.0 or newer (for python plugin support)
 - GUdev 143 or newer (for iPod and generic audio player support)
@@ -49,11 +49,11 @@ so you might have to install some additional packages.
 
 ```
   % meson setup _build -Dprefix=$PWD/_install    # prepare the build
-  % ninja -C _build                              # build Rhythmbox
-  % ninja -C _build install                      # install Rhythmbox
+  % ninja -C _build                              # build Playbox
+  % ninja -C _build install                      # install Playbox
 ```
 
-This installs Rhythmbox to the `_install` directory under the source tree.
+This installs Playbox to the `_install` directory under the source tree.
 The executable to run will then be `_install/bin/rhythmbox`.
 Before you can run it from there, you will also need to set an environment
 variable to load schemas from the install location:
